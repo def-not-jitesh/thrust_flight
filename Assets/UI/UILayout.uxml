@@ -1,3 +1,5 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Label text="Score: 0" name="ScoreLabel" style="position: absolute; top: 0; align-self: center; font-size: 25px; color: rgb(0, 0, 0);"/>
+    <ui:Button text="Restart" name="RestartButton" style="align-self: center; position: absolute; top: 50%; font-size: 20px; -unity-text-outline-color: rgb(153, 49, 149); color: rgb(134, 13, 83); background-color: rgb(255, 187, 229);"/>
+    <ui:Label text="Bullets: 0 " name="BulletLabel" style="font-size: 20px; -unity-font-style: bold;"/>
 </ui:UXML>

@@ -1483,6 +1483,7 @@ MonoBehaviour:
   scoreMultiplier: 10
   uiDocument: {fileID: 788141907}
   explosionEffect: {fileID: 6006640540281003611, guid: 21593f1c73216cf9ea880131583738da, type: 3}
+  bullet: {fileID: 488088339685927400, guid: bdd1bf19f7324ec5b9366defb352420a, type: 3}
 --- !u!1001 &2110042552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1672,6 +1673,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 483306492982614183, guid: ce3417462b04e72fb81bc6f39c917ca7, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 483306492982614183, guid: ce3417462b04e72fb81bc6f39c917ca7, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7210321364383451443, guid: ce3417462b04e72fb81bc6f39c917ca7, type: 3}
